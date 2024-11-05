@@ -18,6 +18,14 @@ namespace MyWindowsFormApp
 
         private SqlConnection _connection;
 
+
+        private DBconnectionClass()
+        {
+            string connectionString = @"Data Source=(localdb)\MSSQLLocalDB;AttachDbFilename=C:\USERS\ASD\DESKTOP\2024\MYWINDOWSFORMSAPP\DATABASE1.MDF;Integrated Security=True;";
+            _connection = new SqlConnection(connectionString);
+        }
+
+
         public static DBconnectionClass getInstanceOfDBconnections()
         {
             if (_instance == null)
@@ -27,6 +35,7 @@ namespace MyWindowsFormApp
             }
             return _instance;
         }
+
 
         public DataSet getDataset(string sqlQuery)
         {
@@ -43,8 +52,4 @@ namespace MyWindowsFormApp
             return dataSet;
         }
     }
-
-    
-    
-   
 }
