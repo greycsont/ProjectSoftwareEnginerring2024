@@ -21,7 +21,7 @@ namespace MyWindowsFormApp
 
         private DBconnectionClass()
         {
-            string connectionString = @"Data Source=(localdb)\MSSQLLocalDB;AttachDbFilename=C:\USERS\ASD\DESKTOP\2024\MYWINDOWSFORMSAPP\DATABASE1.MDF;Integrated Security=True;";
+            string connectionString = @"Data Source=(localdb)\MSSQLLocalDB;AttachDbFilename=C:\USERS\ASD\DESKTOP\2024\MYWINDOWSFORMSAPP\DATABASE.MDF;Integrated Security=True;";
             _connection = new SqlConnection(connectionString);
         }
 
@@ -30,6 +30,7 @@ namespace MyWindowsFormApp
         {
             if (_instance == null)
             {
+                Console.WriteLine("creates new instance");
                 _instance = new DBconnectionClass();
                 return _instance;
             }
@@ -44,6 +45,7 @@ namespace MyWindowsFormApp
             if (_connection.State == ConnectionState.Closed)
             {
                 _connection.Open();
+                Console.WriteLine("dataset connection opened");
             }
 
             SqlDataAdapter adapter = new SqlDataAdapter(sqlQuery, _connection);
