@@ -54,19 +54,24 @@
             // 
             // GUI_TextBox_Password
             // 
+            this.GUI_TextBox_Password.ForeColor = System.Drawing.SystemColors.InactiveCaption;
             this.GUI_TextBox_Password.Location = new System.Drawing.Point(497, 227);
             this.GUI_TextBox_Password.Name = "GUI_TextBox_Password";
             this.GUI_TextBox_Password.PasswordChar = '*';
             this.GUI_TextBox_Password.Size = new System.Drawing.Size(205, 23);
             this.GUI_TextBox_Password.TabIndex = 1;
+            this.GUI_TextBox_Password.Text = "Password";
             this.GUI_TextBox_Password.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // GUI_TextBox_Email
             // 
+            this.GUI_TextBox_Email.ForeColor = System.Drawing.SystemColors.InactiveCaption;
             this.GUI_TextBox_Email.Location = new System.Drawing.Point(497, 130);
             this.GUI_TextBox_Email.Name = "GUI_TextBox_Email";
             this.GUI_TextBox_Email.Size = new System.Drawing.Size(205, 23);
             this.GUI_TextBox_Email.TabIndex = 2;
+            this.GUI_TextBox_Email.Text = "Email / Username";
+            this.GUI_TextBox_Email.TextChanged += new System.EventHandler(this.GUI_TextBox_Email_TextChanged);
             // 
             // GUI_TEXT_email
             // 

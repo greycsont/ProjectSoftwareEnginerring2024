@@ -64,6 +64,11 @@ namespace MyWindowsFormsApp
         {
 
         }
+
+        private void GUI_TextBox_Email_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 
    
