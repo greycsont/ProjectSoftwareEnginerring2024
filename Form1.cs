@@ -7,42 +7,52 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WindowsFormsApp1.LoginModule;
 
 namespace WindowsFormsApp1
 {
-    public partial class Form1 : Form
+    public partial class MainForm : Form
     {
-        public Form1()
+        public static String userID;
+        public MainForm()
         {
             InitializeComponent();
         }
-        public void loadform (object Form)
+
+        private void UpdateUsername(String returned_user_ID, string username)
         {
-            if (this.mainpanel.Controls.Count > 0 )
-            {
-                this.mainpanel.Controls.RemoveAt(0);
+            userID = returned_user_ID;
+            userNameLinkLabel.Text = username;
+        }
+
+        private void main_page_Click(object sender, EventArgs e)
+        {
+            FormPanelManager.LoadForm(mainpanel, new MainPage());
+        }
+
+        private void userNameLinkLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            if (userID == null){
+                Login login = new Login();
+                login.UsernameUpdated += UpdateUsername;    // subscribe the event
+                login.ShowDialog();
             }
-            Form f = Form as Form;
-            f.TopLevel = false;
-            f.Dock = DockStyle.Fill;
-            this.mainpanel.Controls.Add(f);
-            this.mainpanel.Tag = f;
-            f.Show();
+            else
+            {
+                FormPanelManager.LoadForm(mainpanel, new UserProfile(userID));
+            }
+
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void event_diary_Button_Click(object sender, EventArgs e)
         {
-            loadform(new button1form());
+            FormPanelManager.LoadForm(mainpanel, new EventDiary());
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void membership_Button_Click(object sender, EventArgs e)
         {
-            loadform(new button2form());
+            FormPanelManager.LoadForm(mainpanel, new Membership(userID));
         }
 
-        private void button5_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
-        }
     }
 }

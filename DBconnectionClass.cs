@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Data.Common;
-using System.Data.SqlClient;
+using Microsoft.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -21,7 +21,7 @@ namespace MyWindowsFormApp
 
         private DBconnectionClass()
         {
-            string connectionString = @"Data Source=(localdb)\MSSQLLocalDB;AttachDbFilename=C:\USERS\ASD\DESKTOP\2024\MYWINDOWSFORMSAPP\DATABASE.MDF;Integrated Security=True;";
+            string connectionString = @"Data Source=(localdb)\MSSQLLocalDB;AttachDbFilename=C:\Users\asd\Source\Repos\ProjectSoftwareEnginerring2024\DATABASE.mdf;Integrated Security=True;";
             _connection = new SqlConnection(connectionString);
         }
 
@@ -30,28 +30,96 @@ namespace MyWindowsFormApp
         {
             if (_instance == null)
             {
-                Console.WriteLine("creates new instance");
+                Console.WriteLine("creates new database's instance");
                 _instance = new DBconnectionClass();
                 return _instance;
             }
+            Console.WriteLine("already have the database's instance");
             return _instance;
         }
 
 
-        public DataSet getDataset(string sqlQuery)
+        public DataSet getDataset(string sqlQuery, Dictionary<string, object> parameters = null)
         {
             DataSet dataSet = new DataSet();
 
-            if (_connection.State == ConnectionState.Closed)
+            try
             {
-                _connection.Open();
-                Console.WriteLine("dataset connection opened");
+                if (_connection.State == ConnectionState.Closed)
+                {
+                    Console.WriteLine("Sql connection open");
+                    _connection.Open();
+                }
+
+                using (SqlCommand command = new SqlCommand(sqlQuery, _connection))
+                {
+
+                    if (parameters != null)
+                    {
+                        foreach (var param in parameters)
+                        {
+                            command.Parameters.AddWithValue(param.Key, param.Value);
+                        }
+                    }
+
+                    using (SqlDataAdapter adapter = new SqlDataAdapter(command))
+                    {
+                        adapter.Fill(dataSet);  // Fill dataset using sqlDataAdapter
+                    }
+                }
+            }catch (Exception ex)
+            {
+                Console.WriteLine("Error: " + ex.Message);
+            }
+            finally
+            {
+                // close database connection
+                if (_connection.State == ConnectionState.Open)
+                {
+                    _connection.Close();        
+                }
+            }
+            return dataSet;
+        }
+
+        public int executeNonQuery(string sqlQuery, Dictionary<string, object> parameters)
+        {
+            try
+            {
+                // Check if the connection is closed and open it if necessary
+                if (_connection.State == ConnectionState.Closed)
+                {
+                    _connection.Open();
+                }
+
+                using (SqlCommand command = new SqlCommand(sqlQuery, _connection))
+                {
+                    // Add parameters to the command if they exist
+                    if (parameters != null)
+                    {
+                        foreach (var param in parameters)
+                        {
+                            command.Parameters.AddWithValue(param.Key, param.Value);
+                        }
+                    }
+
+                    // Execute the SQL command and return the number of affected rows
+                    return command.ExecuteNonQuery();
+                }
+            }
+            catch (SqlException sqlEx)
+            {
+                // Handle SQL-specific exceptions
+                MessageBox.Show("SQL Error: " + sqlEx.Message);
+                return -1;
             }
 
-            SqlDataAdapter adapter = new SqlDataAdapter(sqlQuery, _connection);
-            adapter.Fill(dataSet);
+            finally
+            {
+                // Ensure the connection is closed after the operation
+                _connection.Close();
 
-            return dataSet;
+            }
         }
     }
 }
