@@ -13,6 +13,7 @@ namespace WindowsFormsApp1
 {
     public partial class MainForm : Form
     {
+
         public static String userID;
         public MainForm()
         {
@@ -27,32 +28,44 @@ namespace WindowsFormsApp1
 
         private void main_page_Click(object sender, EventArgs e)
         {
-            FormPanelManager.LoadForm(mainpanel, new MainPage());
+            formChangedTo(mainpanel, new MainPage());
         }
 
         private void userNameLinkLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            if (userID == null){
+            if (userID == null)
+            {
                 Login login = new Login();
                 login.UsernameUpdated += UpdateUsername;    // subscribe the event
                 login.ShowDialog();
             }
             else
             {
-                FormPanelManager.LoadForm(mainpanel, new UserProfile(userID));
+                formChangedTo(mainpanel, new UserProfile(userID));
             }
 
         }
 
         private void event_diary_Button_Click(object sender, EventArgs e)
         {
-            FormPanelManager.LoadForm(mainpanel, new EventDiary());
+            formChangedTo(mainpanel, new EventDiary());
         }
 
         private void membership_Button_Click(object sender, EventArgs e)
         {
-            FormPanelManager.LoadForm(mainpanel, new Membership(userID));
+            formChangedTo(mainpanel, new Membership(mainpanel, userID));
         }
 
+        private void Booking_Click(object sender, EventArgs e)
+        {
+            formChangedTo(mainpanel, new Booking());
+        }
+
+        public static void formChangedTo(Panel panel, Form form)
+        {
+            FormPanelManager.LoadForm(panel, form);
+        }
+
+        
     }
 }

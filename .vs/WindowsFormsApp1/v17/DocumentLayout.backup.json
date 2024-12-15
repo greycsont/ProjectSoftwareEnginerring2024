@@ -3,6 +3,34 @@
   "WorkspaceRootPath": "C:\\Users\\asd\\source\\repos\\ProjectSoftwareEnginerring2024\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{01EAA4A9-8931-4312-9E88-75AE1EF0E113}|WindowsFormsApp1.csproj|C:\\Users\\asd\\source\\repos\\ProjectSoftwareEnginerring2024\\membership.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{01EAA4A9-8931-4312-9E88-75AE1EF0E113}|WindowsFormsApp1.csproj|solutionrelative:membership.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01EAA4A9-8931-4312-9E88-75AE1EF0E113}|WindowsFormsApp1.csproj|C:\\Users\\asd\\source\\repos\\ProjectSoftwareEnginerring2024\\mainpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{01EAA4A9-8931-4312-9E88-75AE1EF0E113}|WindowsFormsApp1.csproj|solutionrelative:mainpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01EAA4A9-8931-4312-9E88-75AE1EF0E113}|WindowsFormsApp1.csproj|c:\\users\\asd\\source\\repos\\projectsoftwareenginerring2024\\formpanelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01EAA4A9-8931-4312-9E88-75AE1EF0E113}|WindowsFormsApp1.csproj|solutionrelative:formpanelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01EAA4A9-8931-4312-9E88-75AE1EF0E113}|WindowsFormsApp1.csproj|C:\\Users\\asd\\source\\repos\\ProjectSoftwareEnginerring2024\\eventdiary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{01EAA4A9-8931-4312-9E88-75AE1EF0E113}|WindowsFormsApp1.csproj|solutionrelative:eventdiary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01EAA4A9-8931-4312-9E88-75AE1EF0E113}|WindowsFormsApp1.csproj|c:\\users\\asd\\source\\repos\\projectsoftwareenginerring2024\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01EAA4A9-8931-4312-9E88-75AE1EF0E113}|WindowsFormsApp1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01EAA4A9-8931-4312-9E88-75AE1EF0E113}|WindowsFormsApp1.csproj|c:\\users\\asd\\source\\repos\\projectsoftwareenginerring2024\\dbconnectionclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01EAA4A9-8931-4312-9E88-75AE1EF0E113}|WindowsFormsApp1.csproj|solutionrelative:dbconnectionclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01EAA4A9-8931-4312-9E88-75AE1EF0E113}|WindowsFormsApp1.csproj|c:\\users\\asd\\source\\repos\\projectsoftwareenginerring2024\\windowsformsapp1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{01EAA4A9-8931-4312-9E88-75AE1EF0E113}|WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{01EAA4A9-8931-4312-9E88-75AE1EF0E113}|WindowsFormsApp1.csproj|c:\\users\\asd\\source\\repos\\projectsoftwareenginerring2024\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{01EAA4A9-8931-4312-9E88-75AE1EF0E113}|WindowsFormsApp1.csproj|solutionrelative:readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
@@ -47,14 +75,6 @@
       "RelativeMoniker": "D:0:0:{01EAA4A9-8931-4312-9E88-75AE1EF0E113}|WindowsFormsApp1.csproj|solutionrelative:userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{01EAA4A9-8931-4312-9E88-75AE1EF0E113}|WindowsFormsApp1.csproj|C:\\Users\\asd\\source\\repos\\ProjectSoftwareEnginerring2024\\eventdiary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{01EAA4A9-8931-4312-9E88-75AE1EF0E113}|WindowsFormsApp1.csproj|solutionrelative:eventdiary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01EAA4A9-8931-4312-9E88-75AE1EF0E113}|WindowsFormsApp1.csproj|c:\\users\\asd\\source\\repos\\projectsoftwareenginerring2024\\dbconnectionclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01EAA4A9-8931-4312-9E88-75AE1EF0E113}|WindowsFormsApp1.csproj|solutionrelative:dbconnectionclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{01EAA4A9-8931-4312-9E88-75AE1EF0E113}|WindowsFormsApp1.csproj|c:\\users\\asd\\source\\repos\\projectsoftwareenginerring2024\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{01EAA4A9-8931-4312-9E88-75AE1EF0E113}|WindowsFormsApp1.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -67,24 +87,12 @@
       "RelativeMoniker": "D:0:0:{01EAA4A9-8931-4312-9E88-75AE1EF0E113}|WindowsFormsApp1.csproj|solutionrelative:membership.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{01EAA4A9-8931-4312-9E88-75AE1EF0E113}|WindowsFormsApp1.csproj|C:\\Users\\asd\\source\\repos\\ProjectSoftwareEnginerring2024\\membership.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{01EAA4A9-8931-4312-9E88-75AE1EF0E113}|WindowsFormsApp1.csproj|solutionrelative:membership.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{01EAA4A9-8931-4312-9E88-75AE1EF0E113}|WindowsFormsApp1.csproj|c:\\users\\asd\\source\\repos\\projectsoftwareenginerring2024\\loginmodule\\loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{01EAA4A9-8931-4312-9E88-75AE1EF0E113}|WindowsFormsApp1.csproj|solutionrelative:loginmodule\\loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{01EAA4A9-8931-4312-9E88-75AE1EF0E113}|WindowsFormsApp1.csproj|C:\\Users\\asd\\source\\repos\\ProjectSoftwareEnginerring2024\\mainpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{01EAA4A9-8931-4312-9E88-75AE1EF0E113}|WindowsFormsApp1.csproj|solutionrelative:mainpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{01EAA4A9-8931-4312-9E88-75AE1EF0E113}|WindowsFormsApp1.csproj|c:\\users\\asd\\source\\repos\\projectsoftwareenginerring2024\\mainpage.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{01EAA4A9-8931-4312-9E88-75AE1EF0E113}|WindowsFormsApp1.csproj|solutionrelative:mainpage.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01EAA4A9-8931-4312-9E88-75AE1EF0E113}|WindowsFormsApp1.csproj|c:\\users\\asd\\source\\repos\\projectsoftwareenginerring2024\\formpanelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01EAA4A9-8931-4312-9E88-75AE1EF0E113}|WindowsFormsApp1.csproj|solutionrelative:formpanelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{01EAA4A9-8931-4312-9E88-75AE1EF0E113}|WindowsFormsApp1.csproj|C:\\Users\\asd\\source\\repos\\ProjectSoftwareEnginerring2024\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -101,14 +109,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{01EAA4A9-8931-4312-9E88-75AE1EF0E113}|WindowsFormsApp1.csproj|c:\\users\\asd\\source\\repos\\projectsoftwareenginerring2024\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{01EAA4A9-8931-4312-9E88-75AE1EF0E113}|WindowsFormsApp1.csproj|solutionrelative:form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01EAA4A9-8931-4312-9E88-75AE1EF0E113}|WindowsFormsApp1.csproj|c:\\users\\asd\\source\\repos\\projectsoftwareenginerring2024\\windowsformsapp1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{01EAA4A9-8931-4312-9E88-75AE1EF0E113}|WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01EAA4A9-8931-4312-9E88-75AE1EF0E113}|WindowsFormsApp1.csproj|c:\\users\\asd\\source\\repos\\projectsoftwareenginerring2024\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01EAA4A9-8931-4312-9E88-75AE1EF0E113}|WindowsFormsApp1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{01EAA4A9-8931-4312-9E88-75AE1EF0E113}|WindowsFormsApp1.csproj|c:\\users\\asd\\source\\repos\\projectsoftwareenginerring2024\\loginmodule\\loginpage.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -130,11 +130,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\asd\\source\\repos\\ProjectSoftwareEnginerring2024\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
@@ -147,29 +147,112 @@
               "EditorCaption": ""
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "readme.txt",
-              "DocumentMoniker": "C:\\Users\\asd\\Source\\Repos\\ProjectSoftwareEnginerring2024\\readme.txt",
-              "RelativeDocumentMoniker": "readme.txt",
-              "ToolTip": "C:\\Users\\asd\\Source\\Repos\\ProjectSoftwareEnginerring2024\\readme.txt",
-              "RelativeToolTip": "readme.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-12-10T03:02:19.068Z",
-              "EditorCaption": ""
-            },
-            {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EventDiary.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\asd\\source\\repos\\ProjectSoftwareEnginerring2024\\EventDiary.cs",
+              "RelativeDocumentMoniker": "EventDiary.cs",
+              "ToolTip": "C:\\Users\\asd\\source\\repos\\ProjectSoftwareEnginerring2024\\EventDiary.cs [Design]",
+              "RelativeToolTip": "EventDiary.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T02:00:06.113Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormPanelManager.cs",
+              "DocumentMoniker": "C:\\Users\\asd\\source\\repos\\ProjectSoftwareEnginerring2024\\FormPanelManager.cs",
+              "RelativeDocumentMoniker": "FormPanelManager.cs",
+              "ToolTip": "C:\\Users\\asd\\source\\repos\\ProjectSoftwareEnginerring2024\\FormPanelManager.cs",
+              "RelativeToolTip": "FormPanelManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T00:55:07.278Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "MainPage.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\asd\\source\\repos\\ProjectSoftwareEnginerring2024\\MainPage.cs",
+              "RelativeDocumentMoniker": "MainPage.cs",
+              "ToolTip": "C:\\Users\\asd\\source\\repos\\ProjectSoftwareEnginerring2024\\MainPage.cs [Design]",
+              "RelativeToolTip": "MainPage.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T01:17:21.665Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Membership.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\asd\\source\\repos\\ProjectSoftwareEnginerring2024\\Membership.cs",
+              "RelativeDocumentMoniker": "Membership.cs",
+              "ToolTip": "C:\\Users\\asd\\source\\repos\\ProjectSoftwareEnginerring2024\\Membership.cs [Design]",
+              "RelativeToolTip": "Membership.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T02:24:35.173Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\asd\\source\\repos\\ProjectSoftwareEnginerring2024\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\asd\\source\\repos\\ProjectSoftwareEnginerring2024\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAawBEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T21:31:10.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DBconnectionClass.cs",
+              "DocumentMoniker": "C:\\Users\\asd\\source\\repos\\ProjectSoftwareEnginerring2024\\DBconnectionClass.cs",
+              "RelativeDocumentMoniker": "DBconnectionClass.cs",
+              "ToolTip": "C:\\Users\\asd\\source\\repos\\ProjectSoftwareEnginerring2024\\DBconnectionClass.cs",
+              "RelativeToolTip": "DBconnectionClass.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAQwDUAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T20:50:25.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WindowsFormsApp1.csproj",
+              "DocumentMoniker": "C:\\Users\\asd\\Source\\Repos\\ProjectSoftwareEnginerring2024\\WindowsFormsApp1.csproj",
+              "RelativeDocumentMoniker": "WindowsFormsApp1.csproj",
+              "ToolTip": "C:\\Users\\asd\\Source\\Repos\\ProjectSoftwareEnginerring2024\\WindowsFormsApp1.csproj",
+              "RelativeToolTip": "WindowsFormsApp1.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-07T20:49:06.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "readme.txt",
+              "DocumentMoniker": "C:\\Users\\asd\\source\\repos\\ProjectSoftwareEnginerring2024\\readme.txt",
+              "RelativeDocumentMoniker": "readme.txt",
+              "ToolTip": "C:\\Users\\asd\\source\\repos\\ProjectSoftwareEnginerring2024\\readme.txt",
+              "RelativeToolTip": "readme.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-12-10T03:02:19.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "forgotPasswordPage.cs",
               "DocumentMoniker": "C:\\Users\\asd\\source\\repos\\ProjectSoftwareEnginerring2024\\LoginModule\\forgotPasswordPage.cs",
               "RelativeDocumentMoniker": "LoginModule\\forgotPasswordPage.cs",
@@ -182,41 +265,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "LoginPage.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\asd\\source\\repos\\ProjectSoftwareEnginerring2024\\LoginModule\\LoginPage.cs",
-              "RelativeDocumentMoniker": "LoginModule\\LoginPage.cs",
-              "ToolTip": "C:\\Users\\asd\\source\\repos\\ProjectSoftwareEnginerring2024\\LoginModule\\LoginPage.cs [Design]",
-              "RelativeToolTip": "LoginModule\\LoginPage.cs [Design]",
+              "DocumentIndex": 14,
+              "Title": "registerPage.cs",
+              "DocumentMoniker": "C:\\Users\\asd\\source\\repos\\ProjectSoftwareEnginerring2024\\LoginModule\\registerPage.cs",
+              "RelativeDocumentMoniker": "LoginModule\\registerPage.cs",
+              "ToolTip": "C:\\Users\\asd\\source\\repos\\ProjectSoftwareEnginerring2024\\LoginModule\\registerPage.cs",
+              "RelativeToolTip": "LoginModule\\registerPage.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwCIAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T20:50:07.101Z"
+              "WhenOpened": "2024-12-07T21:20:14.716Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Login.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\asd\\source\\repos\\ProjectSoftwareEnginerring2024\\LoginModule\\Login.cs",
-              "RelativeDocumentMoniker": "LoginModule\\Login.cs",
-              "ToolTip": "C:\\Users\\asd\\source\\repos\\ProjectSoftwareEnginerring2024\\LoginModule\\Login.cs [Design]",
-              "RelativeToolTip": "LoginModule\\Login.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T20:49:13.588Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "forgotPasswordPage.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\asd\\source\\repos\\ProjectSoftwareEnginerring2024\\LoginModule\\forgotPasswordPage.cs",
-              "RelativeDocumentMoniker": "LoginModule\\forgotPasswordPage.cs",
-              "ToolTip": "C:\\Users\\asd\\source\\repos\\ProjectSoftwareEnginerring2024\\LoginModule\\forgotPasswordPage.cs [Design]",
-              "RelativeToolTip": "LoginModule\\forgotPasswordPage.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T20:50:04.929Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 13,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\asd\\source\\repos\\ProjectSoftwareEnginerring2024\\UserService.cs",
               "RelativeDocumentMoniker": "UserService.cs",
@@ -228,19 +290,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "registerPage.cs",
-              "DocumentMoniker": "C:\\Users\\asd\\source\\repos\\ProjectSoftwareEnginerring2024\\LoginModule\\registerPage.cs",
-              "RelativeDocumentMoniker": "LoginModule\\registerPage.cs",
-              "ToolTip": "C:\\Users\\asd\\source\\repos\\ProjectSoftwareEnginerring2024\\LoginModule\\registerPage.cs",
-              "RelativeToolTip": "LoginModule\\registerPage.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwCIAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T21:20:14.716Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 15,
               "Title": "App.config",
               "DocumentMoniker": "C:\\Users\\asd\\source\\repos\\ProjectSoftwareEnginerring2024\\App.config",
               "RelativeDocumentMoniker": "App.config",
@@ -252,7 +302,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 16,
               "Title": "UserProfile.cs",
               "DocumentMoniker": "C:\\Users\\asd\\source\\repos\\ProjectSoftwareEnginerring2024\\UserProfile.cs",
               "RelativeDocumentMoniker": "UserProfile.cs",
@@ -265,19 +315,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "DBconnectionClass.cs",
-              "DocumentMoniker": "C:\\Users\\asd\\source\\repos\\ProjectSoftwareEnginerring2024\\DBconnectionClass.cs",
-              "RelativeDocumentMoniker": "DBconnectionClass.cs",
-              "ToolTip": "C:\\Users\\asd\\source\\repos\\ProjectSoftwareEnginerring2024\\DBconnectionClass.cs",
-              "RelativeToolTip": "DBconnectionClass.cs",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAQwDUAAABPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T20:50:25.38Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 19,
               "Title": "registerPage.Designer.cs",
               "DocumentMoniker": "C:\\Users\\asd\\source\\repos\\ProjectSoftwareEnginerring2024\\LoginModule\\registerPage.Designer.cs",
               "RelativeDocumentMoniker": "LoginModule\\registerPage.Designer.cs",
@@ -289,7 +327,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 20,
               "Title": "Membership.cs",
               "DocumentMoniker": "C:\\Users\\asd\\source\\repos\\ProjectSoftwareEnginerring2024\\Membership.cs",
               "RelativeDocumentMoniker": "Membership.cs",
@@ -297,12 +335,11 @@
               "RelativeToolTip": "Membership.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAqwBoAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T02:32:33.993Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-08T02:32:33.993Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "LoginPage.cs",
               "DocumentMoniker": "C:\\Users\\asd\\source\\repos\\ProjectSoftwareEnginerring2024\\LoginModule\\LoginPage.cs",
               "RelativeDocumentMoniker": "LoginModule\\LoginPage.cs",
@@ -310,11 +347,12 @@
               "RelativeToolTip": "LoginModule\\LoginPage.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAawCUAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T14:41:50.974Z"
+              "WhenOpened": "2024-12-09T14:41:50.974Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "MainPage.Designer.cs",
               "DocumentMoniker": "C:\\Users\\asd\\source\\repos\\ProjectSoftwareEnginerring2024\\MainPage.Designer.cs",
               "RelativeDocumentMoniker": "MainPage.Designer.cs",
@@ -322,23 +360,12 @@
               "RelativeToolTip": "MainPage.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T01:49:13.373Z"
+              "WhenOpened": "2024-12-10T01:49:13.373Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "FormPanelManager.cs",
-              "DocumentMoniker": "C:\\Users\\asd\\source\\repos\\ProjectSoftwareEnginerring2024\\FormPanelManager.cs",
-              "RelativeDocumentMoniker": "FormPanelManager.cs",
-              "ToolTip": "C:\\Users\\asd\\source\\repos\\ProjectSoftwareEnginerring2024\\FormPanelManager.cs",
-              "RelativeToolTip": "FormPanelManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T00:55:07.278Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "Login.cs",
               "DocumentMoniker": "C:\\Users\\asd\\source\\repos\\ProjectSoftwareEnginerring2024\\LoginModule\\Login.cs",
               "RelativeDocumentMoniker": "LoginModule\\Login.cs",
@@ -346,11 +373,12 @@
               "RelativeToolTip": "LoginModule\\Login.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAAwBQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T21:33:11.458Z"
+              "WhenOpened": "2024-12-07T21:33:11.458Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "UserProfile.Designer.cs",
               "DocumentMoniker": "C:\\Users\\asd\\source\\repos\\ProjectSoftwareEnginerring2024\\UserProfile.Designer.cs",
               "RelativeDocumentMoniker": "UserProfile.Designer.cs",
@@ -362,7 +390,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "Form1.Designer.cs",
               "DocumentMoniker": "C:\\Users\\asd\\source\\repos\\ProjectSoftwareEnginerring2024\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "Form1.Designer.cs",
@@ -371,30 +399,6 @@
               "ViewState": "AgIAAIkAAAAAAAAAAAAlwKcAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-08T01:42:43.129Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "WindowsFormsApp1.csproj",
-              "DocumentMoniker": "C:\\Users\\asd\\Source\\Repos\\ProjectSoftwareEnginerring2024\\WindowsFormsApp1.csproj",
-              "RelativeDocumentMoniker": "WindowsFormsApp1.csproj",
-              "ToolTip": "C:\\Users\\asd\\Source\\Repos\\ProjectSoftwareEnginerring2024\\WindowsFormsApp1.csproj",
-              "RelativeToolTip": "WindowsFormsApp1.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-07T20:49:06.315Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\asd\\source\\repos\\ProjectSoftwareEnginerring2024\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\asd\\source\\repos\\ProjectSoftwareEnginerring2024\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAawBEAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T21:31:10.33Z"
             },
             {
               "$type": "Document",
@@ -418,7 +422,8 @@
               "RelativeToolTip": "Membership.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T02:26:24.365Z"
+              "WhenOpened": "2024-12-08T02:26:24.365Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -438,69 +443,75 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\asd\\source\\repos\\ProjectSoftwareEnginerring2024\\LoginModule\\Login.cs",
+              "RelativeDocumentMoniker": "LoginModule\\Login.cs",
+              "ToolTip": "C:\\Users\\asd\\source\\repos\\ProjectSoftwareEnginerring2024\\LoginModule\\Login.cs [Design]",
+              "RelativeToolTip": "LoginModule\\Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T20:49:13.588Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LoginPage.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\asd\\source\\repos\\ProjectSoftwareEnginerring2024\\LoginModule\\LoginPage.cs",
+              "RelativeDocumentMoniker": "LoginModule\\LoginPage.cs",
+              "ToolTip": "C:\\Users\\asd\\source\\repos\\ProjectSoftwareEnginerring2024\\LoginModule\\LoginPage.cs [Design]",
+              "RelativeToolTip": "LoginModule\\LoginPage.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T20:50:07.101Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "forgotPasswordPage.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\asd\\source\\repos\\ProjectSoftwareEnginerring2024\\LoginModule\\forgotPasswordPage.cs",
+              "RelativeDocumentMoniker": "LoginModule\\forgotPasswordPage.cs",
+              "ToolTip": "C:\\Users\\asd\\source\\repos\\ProjectSoftwareEnginerring2024\\LoginModule\\forgotPasswordPage.cs [Design]",
+              "RelativeToolTip": "LoginModule\\forgotPasswordPage.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T20:50:04.929Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "registerPage.cs [Design]",
               "DocumentMoniker": "C:\\Users\\asd\\source\\repos\\ProjectSoftwareEnginerring2024\\LoginModule\\registerPage.cs",
               "RelativeDocumentMoniker": "LoginModule\\registerPage.cs",
               "ToolTip": "C:\\Users\\asd\\source\\repos\\ProjectSoftwareEnginerring2024\\LoginModule\\registerPage.cs [Design]",
               "RelativeToolTip": "LoginModule\\registerPage.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T20:50:00.97Z"
+              "WhenOpened": "2024-12-07T20:50:00.97Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 17,
               "Title": "UserProfile.cs [Design]",
               "DocumentMoniker": "C:\\Users\\asd\\source\\repos\\ProjectSoftwareEnginerring2024\\UserProfile.cs",
               "RelativeDocumentMoniker": "UserProfile.cs",
               "ToolTip": "C:\\Users\\asd\\source\\repos\\ProjectSoftwareEnginerring2024\\UserProfile.cs [Design]",
               "RelativeToolTip": "UserProfile.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T15:15:20.186Z"
+              "WhenOpened": "2024-12-09T15:15:20.186Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "EventDiary.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\asd\\source\\repos\\ProjectSoftwareEnginerring2024\\EventDiary.cs",
-              "RelativeDocumentMoniker": "EventDiary.cs",
-              "ToolTip": "C:\\Users\\asd\\source\\repos\\ProjectSoftwareEnginerring2024\\EventDiary.cs [Design]",
-              "RelativeToolTip": "EventDiary.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T02:00:06.113Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Membership.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\asd\\source\\repos\\ProjectSoftwareEnginerring2024\\Membership.cs",
-              "RelativeDocumentMoniker": "Membership.cs",
-              "ToolTip": "C:\\Users\\asd\\source\\repos\\ProjectSoftwareEnginerring2024\\Membership.cs [Design]",
-              "RelativeToolTip": "Membership.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T02:24:35.173Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "MainPage.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\asd\\source\\repos\\ProjectSoftwareEnginerring2024\\MainPage.cs",
-              "RelativeDocumentMoniker": "MainPage.cs",
-              "ToolTip": "C:\\Users\\asd\\source\\repos\\ProjectSoftwareEnginerring2024\\MainPage.cs [Design]",
-              "RelativeToolTip": "MainPage.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T01:17:21.665Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\asd\\source\\repos\\ProjectSoftwareEnginerring2024\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\asd\\source\\repos\\ProjectSoftwareEnginerring2024\\Form1.cs [Design]",
               "RelativeToolTip": "Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T21:30:41.588Z"
+              "WhenOpened": "2024-12-07T21:30:41.588Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

@@ -93,6 +93,7 @@
             Booking.TabIndex = 2;
             Booking.Text = "Booking";
             Booking.UseVisualStyleBackColor = false;
+            Booking.Click += Booking_Click;
             // 
             // event_diary_Button
             // 

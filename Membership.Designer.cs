@@ -75,6 +75,7 @@
             workspace_membership_Button.TabIndex = 17;
             workspace_membership_Button.Text = "Find out more";
             workspace_membership_Button.UseVisualStyleBackColor = false;
+            workspace_membership_Button.Click += workspace_membership_Button_Click;
             // 
             // pictureBox1
             // 

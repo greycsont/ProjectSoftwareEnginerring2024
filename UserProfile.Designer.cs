@@ -31,6 +31,7 @@
             description_Text_Box = new System.Windows.Forms.TextBox();
             user_Name_Label = new System.Windows.Forms.Label();
             save_change_Button = new System.Windows.Forms.Button();
+            membership_Label = new System.Windows.Forms.Label();
             SuspendLayout();
             // 
             // description_Text_Box
@@ -68,12 +69,25 @@
             save_change_Button.UseVisualStyleBackColor = true;
             save_change_Button.Click += save_change_Button_Click;
             // 
+            // membership_Label
+            // 
+            membership_Label.Anchor = System.Windows.Forms.AnchorStyles.None;
+            membership_Label.AutoSize = true;
+            membership_Label.Font = new System.Drawing.Font("Microsoft YaHei UI", 14.1428566F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 134);
+            membership_Label.Location = new System.Drawing.Point(72, 274);
+            membership_Label.Name = "membership_Label";
+            membership_Label.Size = new System.Drawing.Size(210, 30);
+            membership_Label.TabIndex = 3;
+            membership_Label.Text = "membership_Label";
+            membership_Label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // UserProfile
             // 
             AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             BackColor = System.Drawing.Color.FromArgb(128, 128, 255);
             ClientSize = new System.Drawing.Size(800, 450);
+            Controls.Add(membership_Label);
             Controls.Add(save_change_Button);
             Controls.Add(user_Name_Label);
             Controls.Add(description_Text_Box);
@@ -89,5 +103,6 @@
         private System.Windows.Forms.TextBox description_Text_Box;
         private System.Windows.Forms.Label user_Name_Label;
         private System.Windows.Forms.Button save_change_Button;
+        private System.Windows.Forms.Label membership_Label;
     }
 }

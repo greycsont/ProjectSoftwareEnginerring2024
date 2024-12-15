@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\asd\\source\\repos\\ProjectSoftwareEnginerring2024\\WindowsFormsApp1.csproj": {}
+    "C:\\Users\\asd\\Source\\Repos\\ProjectSoftwareEnginerring2024\\WindowsFormsApp1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\asd\\source\\repos\\ProjectSoftwareEnginerring2024\\WindowsFormsApp1.csproj": {
+    "C:\\Users\\asd\\Source\\Repos\\ProjectSoftwareEnginerring2024\\WindowsFormsApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\asd\\source\\repos\\ProjectSoftwareEnginerring2024\\WindowsFormsApp1.csproj",
+        "projectUniqueName": "C:\\Users\\asd\\Source\\Repos\\ProjectSoftwareEnginerring2024\\WindowsFormsApp1.csproj",
         "projectName": "WindowsFormsApp1",
-        "projectPath": "C:\\Users\\asd\\source\\repos\\ProjectSoftwareEnginerring2024\\WindowsFormsApp1.csproj",
+        "projectPath": "C:\\Users\\asd\\Source\\Repos\\ProjectSoftwareEnginerring2024\\WindowsFormsApp1.csproj",
         "packagesPath": "C:\\Users\\asd\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\asd\\Source\\Repos\\ProjectSoftwareEnginerring2024\\obj\\",
         "projectStyle": "PackageReference",

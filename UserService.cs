@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Data;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -13,7 +14,7 @@ namespace WindowsFormsApp1
     {
         public bool validateUser(string email, string password)     //used in LoginPage.cs via Login.cs
         {
-            string sqlQuery = "SELECT COUNT(*) FROM [User] WHERE Email = @Email AND Password = @Password";
+            string sqlQuery = LoadSqlFile("ValidateUser.sql");
 
             var parameters = new Dictionary<string, object>
             {
@@ -34,7 +35,7 @@ namespace WindowsFormsApp1
 
         public (String returned_user_ID, string UserName) GetUserNames(string email, string password)       // used in Login.cs
         {
-            string sqlQuery = "SELECT ID, FirstName + ' ' + LastName AS Username FROM [User] WHERE Email = @Email AND Password = @Password";
+            string sqlQuery = LoadSqlFile("GetUserNames.sql");
 
             var parameters = new Dictionary<string, object>
             {
@@ -57,9 +58,9 @@ namespace WindowsFormsApp1
             return (null, null);    // If no match is found, return (null, null)
         }
 
-        public (string Username, string Description) GetUserInfoByID(String userId)     // used in UserProfile.cs
+        public (string Username, string Description, string MembershipType) GetUserInfoByID(String userId)     // used in UserProfile.cs
         {
-            string sqlQuery = "SELECT FirstName + ' ' + LastName AS Username, Description FROM [User] WHERE ID = @UserID";
+            string sqlQuery = LoadSqlFile("GetUserInfoByID.sql");
 
             var parameters = new Dictionary<string, object>
             {
@@ -72,15 +73,17 @@ namespace WindowsFormsApp1
             {
                 string username = result.Tables[0].Rows[0]["Username"].ToString();
                 string description = result.Tables[0].Rows[0]["Description"].ToString();
-                return (username, description); // Return tuple with Username and Description
+                string membershipType = result.Tables[0].Rows[0]["MembershipType"].ToString();
+
+                return (username, description, membershipType);
             }
 
-            return (null, null); // Return nulls if no user found
+            return (null, null, null); // Return nulls if no user found
         }
 
         public bool UpdateUserProfile(string userId, string newDescription)     // used in UserProfile.cs
         {
-            string sqlQuery = "UPDATE [User] SET Description = @Description WHERE ID = @UserID";
+            string sqlQuery = LoadSqlFile("UpdateUserProfile.sql");
 
             var parameters = new Dictionary<string, object>
             {
@@ -100,7 +103,7 @@ namespace WindowsFormsApp1
                 return false;   // if email not exists, return false
             }
 
-            string sqlQuery = "UPDATE [User] SET Password = @Password WHERE Email = @Email";
+            string sqlQuery = LoadSqlFile("UpdatePassword.sql");
 
             var parameters = new Dictionary<string, object>
             {
@@ -118,11 +121,11 @@ namespace WindowsFormsApp1
             // check if email exists
             if (isEmailAlreadyRegistered(email))
             {
+                MessageBox.Show("The email is already registed");
                 return false;   // if email exists, return false
             }
 
-            string sqlQuery = "INSERT INTO [User] (Email, Password, FirstName, LastName)" +
-                              "VALUES (@Email, @Password, @FirstName, @LastName)";
+            string sqlQuery = LoadSqlFile("RegisterUser.sql");
 
             var parameters = new Dictionary<string, object>
             {
@@ -141,7 +144,7 @@ namespace WindowsFormsApp1
 
         private bool isEmailAlreadyRegistered(string email)     // used in register.cs
         {
-            string sqlQuery = "SELECT COUNT(*) FROM [User] WHERE Email = @Email";
+            string sqlQuery = LoadSqlFile("CheckEmailRegistered.sql");
 
             var parameters = new Dictionary<string, object>
             {
@@ -153,12 +156,59 @@ namespace WindowsFormsApp1
             if (result.Tables[0].Rows.Count > 0)
             {
                 int count = Convert.ToInt32(result.Tables[0].Rows[0][0]);
-                MessageBox.Show("The email is already registed");
                 return count > 0;   // if email exists, return true
             }
 
             return false;   // if email not exists, return false
         }
 
+        public List<(string EventID, string Title, String EventTypeName)> GetUpcomingEvents(int offset)
+        {
+            string sqlQuery = LoadSqlFile("GetUpcomingEvents.sql");
+
+            var parameters = new Dictionary<string, object>
+            {
+                { "@Offset", offset }
+            };
+
+            DataSet result = DBconnectionClass.getInstanceOfDBconnections().getDataset(sqlQuery, parameters);
+
+            var events = new List<(string, string, string)>();
+
+            if (result.Tables[0].Rows.Count > 0)
+            {
+                foreach (DataRow row in result.Tables[0].Rows)
+                {
+                    string eventID = row["ID"].ToString();
+                    string title = row["Title"].ToString();
+                    string eventTypeName = row["Name"].ToString();
+
+                    events.Add((eventID, title, eventTypeName));
+                }
+            }
+
+            return events; // Return the list of upcoming events
+        }
+
+
+
+        private string LoadSqlFile(string fileName)
+        {
+            // baseDirectory = project\bin\Debug\net8.0-windows
+            string baseDirectory = AppDomain.CurrentDomain.BaseDirectory;
+
+            // return to project folder
+            string projectRoot = Path.Combine(baseDirectory, "..", "..", "..");
+
+            // full file path to sql_query folder
+            string sqlFilePath = Path.Combine(projectRoot, "sql_query", fileName);
+
+            if (!File.Exists(sqlFilePath))
+            {
+                throw new FileNotFoundException($"SQL file '{fileName}' not found in '{sqlFilePath}'.");
+            }
+
+            return File.ReadAllText(sqlFilePath);
+        }
     }
 }

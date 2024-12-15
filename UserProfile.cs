@@ -20,13 +20,15 @@ namespace WindowsFormsApp1
             InitializeComponent();
 
             GetUserProfile(userService.GetUserInfoByID(_userID).Username,
-                           userService.GetUserInfoByID(_userID).Description);
+                           userService.GetUserInfoByID(_userID).Description,
+                           userService.GetUserInfoByID(_userID).MembershipType);
         }
 
-        private void GetUserProfile(String userName, String Description)
+        private void GetUserProfile(String userName, String Description, String MembershipType)
         {
             user_Name_Label.Text = userName;
             description_Text_Box.Text = Description;
+            membership_Label.Text = ("Current membership\n" + MembershipType);
         }
 
         private void save_change_Button_Click(object sender, EventArgs e)
