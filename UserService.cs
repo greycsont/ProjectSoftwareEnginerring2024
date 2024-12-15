@@ -197,10 +197,10 @@ namespace WindowsFormsApp1
             // baseDirectory = project\bin\Debug\net8.0-windows
             string baseDirectory = AppDomain.CurrentDomain.BaseDirectory;
 
-            // return to project folder
-            string projectRoot = Path.Combine(baseDirectory, "..", "..", "..");
+            // calculate project's file path
+            string projectRoot = Path.GetFullPath(Path.Combine(baseDirectory, @"..\..\..\"));
 
-            // full file path to sql_query folder
+            // combine sql_query's file path
             string sqlFilePath = Path.Combine(projectRoot, "sql_query", fileName);
 
             if (!File.Exists(sqlFilePath))

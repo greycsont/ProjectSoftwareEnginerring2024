@@ -9,6 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace MyWindowsFormApp
 {
@@ -21,11 +22,31 @@ namespace MyWindowsFormApp
 
         private DBconnectionClass()
         {
-            string connectionString = @"Data Source=(localdb)\MSSQLLocalDB;AttachDbFilename=C:\Users\asd\Source\Repos\ProjectSoftwareEnginerring2024\DATABASE.mdf;Integrated Security=True;";
+            string connectionString = GetConnectionString();
             _connection = new SqlConnection(connectionString);
         }
 
+        private string GetConnectionString()
+        {
+            // baseDirectory = project\bin\Debug\net8.0-windows
+            string baseDirectory = AppDomain.CurrentDomain.BaseDirectory;
 
+            // calculate project's file path
+            string projectRoot = Path.GetFullPath(Path.Combine(baseDirectory, @"..\..\..\"));
+
+            // combine database's file path
+            string databaseFilePath = Path.Combine(projectRoot, "DATABASE.mdf");
+
+            // check if database exist
+            if (!File.Exists(databaseFilePath))
+            {
+                throw new FileNotFoundException($"database not found in '{databaseFilePath}' 。");
+            }
+
+
+            string connectionString = $@"Data Source=(localdb)\MSSQLLocalDB;AttachDbFilename={databaseFilePath};Integrated Security=True;";
+            return connectionString;
+        }
         public static DBconnectionClass getInstanceOfDBconnections()
         {
             if (_instance == null)
